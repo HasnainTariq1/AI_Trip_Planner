@@ -1,6 +1,4 @@
-def main():
-    print("Hello from ai-trip-planner!")
+from fastapi import FastAPI
 
+app=FastAPI()
 
-if __name__ == "__main__":
-    main()
